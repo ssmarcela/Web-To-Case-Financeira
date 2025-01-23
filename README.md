@@ -61,3 +61,17 @@ Cria o app para produção na pasta `build`.
 - Enviar um template de e-mail para o endereço inserido no formulário com os dados submetidos e uma estimativa de tempo de resposta após a criação do caso na Salesforce.
 - Criar um componente personalizado para que uma pessoa possa selecionar as transações que deseja tratar e indicar se serão aprovadas ou não.
 - Enviar um e-mail ao usuário informando a aprovação ou rejeição da transação, incluindo o motivo.
+
+---
+
+Visualização do Formulário
+
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/2da128b2-5d23-4565-b058-5449b38792cf" />
+
+Preenchimento das Informações
+
+<img width="721" alt="image" src="https://github.com/user-attachments/assets/a82502ed-7d21-41ad-9ef0-1cf887079e85" />
+
+Registro criado na Salesforce no objeto Caso(Case).
+
+<img width="730" alt="image" src="https://github.com/user-attachments/assets/446de0c7-deed-4b6c-93c2-7bdc3c56ed1a" />
