@@ -1,74 +1,77 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Web-To-Case Financeira
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido utilizando React e integra um formulário Web-to-Case com Salesforce, permitindo que clientes reportem problemas relacionados a transações financeiras, como PIX não reconhecidos ou incorretos.
 
-## Available Scripts
+## 🎯 Objetivo
 
-In the project directory, you can run:
+O formulário coleta dados do cliente e envia diretamente para a Salesforce, criando automaticamente registros no objeto Case para análise e atendimento.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-**1- Formulário Responsivo:
 
-### `npm test`
+- **Campos essenciais para reportar problemas:
+- **Nome do contato.
+- **E-mail.
+- **Telefone.
+- **Descrição do problema.
+- **Código e valor da transação.
+- **Validação básica nos campos obrigatórios.
+- **Integração com Salesforce:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **2- Dados enviados via Web-to-Case criam automaticamente um registro no objeto Case.
+- **Campos configurados para suportar o fluxo de atendimento.
+- **Estilização Moderna com Material-UI:
 
-### `npm run build`
+- **3- Uso de componentes como TextField, Button e Typography.
+- **Design responsivo e profissional.
+  
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React: Para a criação de uma interface dinâmica e responsiva.
+- **Material-UI (MUI): Para estilização e design moderno do formulário.
+- **Salesforce Web-to-Case: Integração direta com Salesforce para criação automática de casos.
+- **Git/GitHub: Para controle de versão e armazenamento do código.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **⚙️ Scripts Disponíveis**
+No diretório do projeto, você pode executar:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **`npm start`**
+Inicia o app no modo de desenvolvimento.  
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- A página será recarregada automaticamente ao fazer alterações no código.
+- Possíveis erros e mensagens do lint aparecerão no console.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **`npm run build`**
+Cria o app para produção na pasta `build`.  
+- O app é otimizado para melhor performance.
+- Os arquivos são minificados e possuem hashes nos nomes.
+  
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## **📌 Próximos Passos**
+- Adicionar validações personalizadas no formulário.
+- Enviar um template de e-mail para o endereço inserido no formulário com os dados submetidos e uma estimativa de tempo de resposta após a criação do caso na Salesforce.
+- Criar um componente personalizado para que uma pessoa possa selecionar as transações que deseja tratar e indicar se serão aprovadas ou não.
+- Enviar um e-mail ao usuário informando a aprovação ou rejeição da transação, incluindo o motivo.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visualização do Formulário
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/2da128b2-5d23-4565-b058-5449b38792cf" />
 
-### Code Splitting
+Preenchimento das Informações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img width="721" alt="image" src="https://github.com/user-attachments/assets/a82502ed-7d21-41ad-9ef0-1cf887079e85" />
 
-### Analyzing the Bundle Size
+Registro criado na Salesforce no objeto Caso(Case).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Web-To-Case-Financeira
->>>>>>> 55449975da4a7580f6902b4b7a61f86557cef95c
+<img width="730" alt="image" src="https://github.com/user-attachments/assets/446de0c7-deed-4b6c-93c2-7bdc3c56ed1a" />
