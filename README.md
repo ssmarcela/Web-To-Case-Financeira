@@ -63,15 +63,11 @@ Cria o app para produção na pasta `build`.
 - Enviar um e-mail ao usuário informando a aprovação ou rejeição da transação, incluindo o motivo.
 
 ---
+### Visualização do Formulário
+![Visualização do Formulário](image-1.png)
 
-Visualização do Formulário
+### Preenchimento das Informações
+![Preenchimento das Informações](image-2.png)
 
-<img width="725" alt="image" src="![alt text](image-1.png)" />
-
-Preenchimento das Informações
-
-<img width="721" alt="image" src="![alt text](image-2.png)" />
-
-Registro criado na Salesforce no objeto Caso(Case).
-
-<img width="730" alt="image" src="![alt text](image-3.png)" />
+### Registro criado na Salesforce no objeto Caso (Case)
+![Registro criado na Salesforce](image-3.png)
